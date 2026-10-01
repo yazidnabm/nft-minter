@@ -1,0 +1,30 @@
+# Secrets
+.env
+wallets.txt
+*.env
+!example.env
+!.env.example
+bot/config.json
+bot/jobs.json
+bot/run.env
+rentoids_spammer.py
+run_rentoids.py
+spam_rentoids.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env runtime luar (chain-specific config di /tmp atau envs/)
+envs/*.env
+/tmp/*.env
+
+# Logs
+*.log
+bot.log
+
+# Node
+node_modules/

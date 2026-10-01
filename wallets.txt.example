@@ -1,0 +1,6 @@
+# Copy to wallets.txt:   cp wallets.txt.example wallets.txt
+# One burner private key (64 hex) per line. Lines starting with # are ignored.
+# May be left empty if PRIVATE_KEY is set in .env.
+
+# 0x1111111111111111111111111111111111111111111111111111111111111111
+# 0x2222222222222222222222222222222222222222222222222222222222222222
